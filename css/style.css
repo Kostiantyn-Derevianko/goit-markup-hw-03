@@ -65,14 +65,14 @@ body {
 
 /*-------------- HEADER-------------- */
 .header {
-  background-color: rgb(209, 200, 200);
+  /* background-color: rgb(209, 200, 200); */
   padding-top: 24px;
   padding-bottom: 25px;
 }
 .header-container {
   display: flex;
   align-items: center;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .header-nav {
   display: flex;
@@ -134,6 +134,11 @@ body {
 .hero {
   background-color: #2f303a;
 }
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -142,19 +147,23 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
+  padding-top: 200px;
+  margin-bottom: 30px;
 }
 /* Кнопка героя */
 .hero-btn {
-  width: 200px;
-  height: 50px;
+  /* display: flex; */
+  /* width: 200px; */
+  /* height: 50px; */
+  padding: 10px 30px;
+  margin-bottom: 200px;
 
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  /* align-items: center; */
+  /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--white-text-color);
   background-color: var(--accent-color);
